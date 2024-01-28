@@ -1,3 +1,3 @@
 love.conf = (t) => {
-  t.window.title = "TypeScript Project";
+	t.window.title = "TypeScript Project";
 };
