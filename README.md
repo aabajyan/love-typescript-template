@@ -10,12 +10,12 @@ Requires [NodeJS](https://nodejs.org/en/download/) and [LÖVE 2D](https://love2d
 
 | Command                | Description                                      |
 | ---------------------- | ------------------------------------------------ |
-| `npm install`          | ⏬ Install dependencies                          |
-| `npm run build`        | 🔨 Build everything                              |
-| `npm run watch`        | 🔨x♾ Re-build Lua files when a TS file is saved |
-| `npm start`            | 🎮 Start the game                                |
-| `npm run fix:prettier` | 💄 Fixes linting issues                          |
-| `npm run lint`         | 💄 Checks for linting issues in code             |
+| `pnpm install`         | ⏬ Install dependencies                          |
+| `pnpm build`           | 🔨 Build everything                              |
+| `pnpm watch`           | 🔨x♾ Re-build Lua files when a TS file is saved  |
+| `pnpm start`           | 🎮 Start the game                                |
+| `pnpm fix:prettier`    | 💄 Fixes linting issues                          |
+| `pnpm lint`            | 💄 Checks for linting issues in code             |
 
 To distribute the game, see the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution).
 
