@@ -1,11 +1,11 @@
 {
   "scripts": {
     "start": "love game --console",
-    "build": "npm run build:tstl && npm run build:copy",
     "lint": "biome lint ./src",
-    "build:tstl": "tstl -p tsconfig.json",
-    "build:copy": "node -e \"require('fs').cpSync('./res', './game/res', { recursive: true })\"",
-    "build:watch": "tstl -w -p tsconfig.json",
+    "bundle": "npm run bundle:tstl && npm run bundle:copy",
+    "bundle:tstl": "tstl -p tsconfig.json",
+    "bundle:copy": "node -e \"require('fs').cpSync('./res', './game/res', { recursive: true })\"",
+    "bundle:watch": "tstl -w -p tsconfig.json --sourceMapTraceback",
     "fix": "biome lint ./src --apply"
   },
   "devDependencies": {

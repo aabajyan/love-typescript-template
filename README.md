@@ -8,12 +8,12 @@ You can click `Use this template` to clone this repo, or download it as a zip.
 
 Requires [NodeJS](https://nodejs.org/en/download/) and [LÖVE 2D](https://love2d.org/) within your CLI.
 
-| Command                | Description                                      |
-| ---------------------- | ------------------------------------------------ |
-| `pnpm install`         | ⏬ Install dependencies                          |
-| `pnpm build`           | 🔨 Build everything                              |
-| `pnpm watch`           | 🔨x♾ Re-build Lua files when a TS file is saved  |
-| `pnpm start`           | 🎮 Start the game                                |
+| Command                | Description                                       |
+| ---------------------- | --------------------------------------------------|
+| `pnpm install`         | ⏬ Install dependencies                           |
+| `pnpm bundle`          | 🔨 Bundle everything                              |
+| `pnpm watch`           | 🔨x♾ Re-Bundle Lua files when a TS file is saved  |
+| `pnpm start`           | 🎮 Start the game                                 |
 | `pnpm lint`            | 💄 Checks for linting issues in code              |
 
 To distribute the game, see the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution).

@@ -14,7 +14,6 @@
 	"tstl": {
 		"luaLibImport": "require-minimal",
 		"luaTarget": "JIT",
-		"noImplicitSelf": true,
-		"sourceMapTraceback": true
+		"noImplicitSelf": true
 	}
 }
