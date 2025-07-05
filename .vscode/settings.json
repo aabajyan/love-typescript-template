@@ -1,0 +1,13 @@
+{
+	"Lua.runtime.version": "LuaJIT",
+	"Lua.workspace.library": [
+		"${3rd}/busted/library",
+		"${3rd}/luassert/library",
+		"${3rd}/love2d/library"
+	],
+	"Lua.diagnostics.disable": ["redundant-parameter"],
+	"Lua.type.checkTableShape": true,
+	"files.associations": {
+		"*.tsx": "xml"
+	}
+}

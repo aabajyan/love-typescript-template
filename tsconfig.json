@@ -1,7 +1,9 @@
 {
+	"$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
 	"compilerOptions": {
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
+		"sourceMap": true,
 		"lib": ["esnext"],
 		"rootDir": "src",
 		"outDir": "game",
@@ -12,7 +14,9 @@
 		]
 	},
 	"tstl": {
+		"noHeader": true,
 		"luaLibImport": "require-minimal",
+		"noResolvePaths": ["lldebugger"],
 		"luaTarget": "JIT",
 		"noImplicitSelf": true
 	}
