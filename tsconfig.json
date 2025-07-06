@@ -4,7 +4,9 @@
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
 		"sourceMap": true,
-		"lib": ["esnext"],
+		"lib": [
+			"esnext"
+		],
 		"rootDir": "src",
 		"outDir": "game",
 		"types": [
@@ -16,7 +18,9 @@
 	"tstl": {
 		"noHeader": true,
 		"luaLibImport": "require-minimal",
-		"noResolvePaths": ["lldebugger"],
+		"noResolvePaths": [
+			"lldebugger"
+		],
 		"luaTarget": "JIT",
 		"noImplicitSelf": true
 	}
